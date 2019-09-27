@@ -1,0 +1,39 @@
+* {
+}
+
+#index_left {
+    width: 30%;
+    margin-left: 10%;
+    float: left;
+    position: absolute;
+    padding: 10px;
+}
+
+#index_right {
+    float: left;
+    margin-left: 20%;
+    text-align: center;
+}
+
+#aside_rank > p {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color: cadetblue;
+}
+
+#daily_rank {
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+}
+
+#daily_rank td {
+    padding-left: 15px;
+}
+
+#qr_code {
+    display: inline-block;
+}

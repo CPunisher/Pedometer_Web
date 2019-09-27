@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="CPunisher">
+    <title>反馈</title>
+    <link type="text/css" rel="stylesheet" href="css/navigation.css">
+    <link type="text/css" rel="stylesheet" href="css/callback.css">
+</head>
+<body>
+    <nav class="navigation">
+        <ul class="main_bar">
+            <li><a href="index.html">主页</a></li>
+            <li><a href="rank.html">排行榜</a></li>
+            <li><a href="register.html">登记</a></li>
+            <li><a href="callback.html">反馈</a></li>
+            <li><a href="donate.html">捐助</a></li>
+        </ul>
+    </nav>
+
+    <article class="main_center">
+        <p>&nbsp;</p>
+        <form id="callback_form" method="post">
+            <fieldset id="callback_fields">
+                <legend>发送反馈</legend>
+                <p>反馈将以邮件的方式发送到作者邮箱</p>
+                <p>请不要发送无意义的垃圾邮件</p>
+                <p>您的任何信息都不会被公开</p>
+
+                <p>
+                    <label for="context" class="form_label">反馈内容:</label>
+                    <textarea id="context" name="context" cols="110" rows="5" style="padding: 5px" required></textarea>
+                </p>
+
+                <p>
+                    <label for="nickname" class="form_label">昵称:</label><br>
+                    <input id="nickname" class="callback_input" name="nickname" required>
+                </p>
+
+                <p>
+                    <label for="email" class="form_label">电子邮件:</label><br>
+                    <input id="email" class="callback_input" name="email" size="30" required>
+                </p>
+
+                <p>
+                    <input id="callback_submit" name="callback_submit" type="submit" value="发送反馈">
+                </p>
+            </fieldset>
+        </form>
+    </article>
+</body>
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="CPunisher">
+    <title>排行榜</title>
+    <link type="text/css" rel="stylesheet" href="css/navigation.css">
+    <link type="text/css" rel="stylesheet" href="css/rank.css">
+    <script src="js/tableData.js"></script>
+</head>
+<body>
+<nav class="navigation">
+    <ul class="main_bar">
+        <li><a href="index.html">主页</a></li>
+        <li><a href="rank.html">排行榜</a></li>
+        <li><a href="register.html">登记</a></li>
+        <li><a href="callback.html">反馈</a></li>
+        <li><a href="donate.html">捐助</a></li>
+    </ul>
+</nav>
+
+<article>
+    <br>
+    <div class="col">
+        <table class="table_data" id="table_daily_data" cellspacing="15">
+            <caption>日榜</caption>
+            <tr>
+                <th class="sort" name="sort_num">学号</th>
+                <th>姓名</th>
+                <th class="sort" name="sort_steps">步数</th>
+            </tr>
+        </table>
+    </div>
+    <div class="col">
+        <table class="table_data" id="table_weekly_data" cellspacing="15">
+            <caption>7日榜</caption>
+            <tr>
+                <th class="sort" name="sort_num">学号</th>
+                <th>姓名</th>
+                <th class="sort" name="sort_steps">步数</th>
+            </tr>
+        </table>
+    </div>
+    <div class="col">
+        <table class="table_data" id="table_monthly_data" cellspacing="15">
+            <caption>月榜</caption>
+            <tr>
+                <th class="sort" name="sort_num">学号</th>
+                <th>姓名</th>
+                <th class="sort" name="sort_steps">步数</th>
+            </tr>
+        </table>
+    </div>
+</article>
+
+<script>
+    getData();
+
+    var themes_num = document.querySelectorAll(".sort");
+    for (var i = 0; i < themes_num.length; i++) {
+        themes_num[i].addEventListener("click", orderRows);
+        themes_num[i].setAttribute("data_order", "1");
+    }
+    var tableData = [];
+    var order = 1;
+
+    function orderRows(e) {
+
+        var table = e.target.parentElement.parentElement;
+        var trs = table.getElementsByTagName("tr");
+
+        // 第一行是th
+        for (var i = 0; i < trs.length - 1; i++) {
+            var tds = trs[i+1].getElementsByTagName("td");
+            if (tds) {
+                tableData[i] = {};
+                tableData[i].stuNum = tds[0].innerHTML;
+                tableData[i].name = tds[1].innerHTML;
+                tableData[i].steps = tds[2].innerHTML;
+            }
+        }
+
+        tableData.sort(function (a, b) {
+            var name = e.target.getAttribute("name");
+            var result;
+            if (name == 'sort_num') {
+                result = a.stuNum - b.stuNum;
+            } else if (name == 'sort_steps') {
+                result = a.steps - b.steps;
+            }
+            return order * result;
+        });
+
+        for (var i = 0; i < trs.length-1; i++) {
+            var tds = trs[i+1].getElementsByTagName("td");
+            if (tableData[i]) {
+                tds[0].innerHTML = tableData[i].stuNum;
+                tds[1].innerHTML = tableData[i].name;
+                tds[2].innerHTML = tableData[i].steps;
+            }
+        }
+        order = -order;
+    }
+</script>
+</body>
+</html>
