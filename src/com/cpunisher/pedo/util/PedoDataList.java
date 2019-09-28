@@ -4,6 +4,7 @@ import com.cpunisher.pedo.pojo.PedoData;
 import com.cpunisher.pedo.pojo.PedoDate;
 import com.google.gson.Gson;
 
+import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -66,6 +67,14 @@ public class PedoDataList implements Mergeable<PedoDataList> {
     public String toJson() {
         Gson gson = new Gson();
         return gson.toJson(dataList.toArray());
+    }
+
+    public PedoDataList subList(int fromIndex, int toIndex) {
+        return new PedoDataList(dataList.subList(fromIndex, toIndex));
+    }
+
+    public void sort(Comparator<? super PedoData> c) {
+        dataList.sort(c);
     }
 
     public int getSize() {

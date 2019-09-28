@@ -6,8 +6,11 @@
     display: inline-block;
 }
 
-.sort {
+.table_data th {
     font-size: 25px;
+}
+
+.sort {
     cursor: pointer;
 }
 

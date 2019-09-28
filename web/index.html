@@ -6,6 +6,8 @@
     <title>微信计步</title>
     <link type="text/css" rel="stylesheet" href="css/navigation.css">
     <link type="text/css" rel="stylesheet" href="css/index.css">
+    <script src="js/rankDataDay.js"></script>
+    <script src="js/utils.js"></script>
 </head>
 <body>
     <nav class="navigation">
@@ -16,11 +18,6 @@
             <li><a href="callback.html">反馈</a></li>
             <li><a href="donate.html">捐助</a></li>
         </ul>
-        <!--
-        <ul class="user_bar">
-            <li><a href="login.html">登录</a></li>
-        </ul>
-        -->
     </nav>
 
     <article>
@@ -38,21 +35,14 @@
 
         <div id="index_right">
             <aside id="aside_rank">
-                <p>微信步数日榜</p>
+                <p>微信步数日榜前五</p>
                 <div id="daily_rank">
-                    <table name="daily_rank_table">
+                    <table name="table_daily_data" id="table_daily_data">
                         <tr>
                             <th>学号</th>
                             <th>姓名</th>
                             <th>步数</th>
-                            <th>折合路程(km)</th>
-                        </tr>
-
-                        <tr>
-                            <td>19373563</td>
-                            <td>陈智勇</td>
-                            <td>5000</td>
-                            <td>4000</td>
+                            <th>折合路程(m)</th>
                         </tr>
                     </table>
                 </div>
@@ -63,5 +53,8 @@
             </aside>
         </div>
     </article>
+    <script>
+        getData();
+    </script>
 </body>
 </html>

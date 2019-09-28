@@ -6,7 +6,8 @@
     <title>排行榜</title>
     <link type="text/css" rel="stylesheet" href="css/navigation.css">
     <link type="text/css" rel="stylesheet" href="css/rank.css">
-    <script src="js/tableData.js"></script>
+    <script src="js/rankDataAll.js"></script>
+    <script src="js/utils.js"></script>
 </head>
 <body>
 <nav class="navigation">
@@ -28,6 +29,7 @@
                 <th class="sort" name="sort_num">学号</th>
                 <th>姓名</th>
                 <th class="sort" name="sort_steps">步数</th>
+                <th>折合路程(m)</th>
             </tr>
         </table>
     </div>
@@ -38,6 +40,7 @@
                 <th class="sort" name="sort_num">学号</th>
                 <th>姓名</th>
                 <th class="sort" name="sort_steps">步数</th>
+                <th>折合路程(m)</th>
             </tr>
         </table>
     </div>
@@ -48,6 +51,7 @@
                 <th class="sort" name="sort_num">学号</th>
                 <th>姓名</th>
                 <th class="sort" name="sort_steps">步数</th>
+                <th>折合路程(m)</th>
             </tr>
         </table>
     </div>
@@ -58,14 +62,13 @@
 
     var themes_num = document.querySelectorAll(".sort");
     for (var i = 0; i < themes_num.length; i++) {
-        themes_num[i].addEventListener("click", orderRows);
+        themes_num[i].addEventListener("click", sortTable);
         themes_num[i].setAttribute("data_order", "1");
     }
-    var tableData = [];
     var order = 1;
 
-    function orderRows(e) {
-
+    function sortTable(e) {
+        var tableData = [];
         var table = e.target.parentElement.parentElement;
         var trs = table.getElementsByTagName("tr");
 
@@ -77,6 +80,7 @@
                 tableData[i].stuNum = tds[0].innerHTML;
                 tableData[i].name = tds[1].innerHTML;
                 tableData[i].steps = tds[2].innerHTML;
+                tableData[i].distance = tds[3].innerHTML;
             }
         }
 
@@ -97,6 +101,7 @@
                 tds[0].innerHTML = tableData[i].stuNum;
                 tds[1].innerHTML = tableData[i].name;
                 tds[2].innerHTML = tableData[i].steps;
+                tds[3].innerHTML = tableData[i].distance;
             }
         }
         order = -order;
