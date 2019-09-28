@@ -7,22 +7,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60f5ed2c-4a83-4a8a-a6d1-de96b2c20afd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/pedometer_war_exploded/WEB-INF/classes/com/cpunisher/pedo/servlet/ServletRankData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/pedometer_war_exploded/WEB-INF/classes/com/cpunisher/pedo/util/PedoDataList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/pedometer_war_exploded/WEB-INF/classes/com/cpunisher/pedo/util/PedoDataList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pedometer_war_exploded/callback.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/pedometer_war_exploded/callback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/pedometer_war_exploded/donate.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/pedometer_war_exploded/donate.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/pedometer_war_exploded/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/pedometer_war_exploded/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/pedometer_war_exploded/js/tableData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/pedometer_war_exploded/rank.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/pedometer_war_exploded/rank.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cpunisher/pedo/servlet/ServletRankData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cpunisher/pedo/servlet/ServletRankDataAll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cpunisher/pedo/util/PedoDataList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cpunisher/pedo/util/PedoDataList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cpunisher/pedo/servlet/ServletRankData.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/cpunisher/pedo/util/PedoDataList.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/cpunisher/pedo/util/PedoDataList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/css/rank.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/css/rank.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cpunisher/pedo/filter/FilterGZip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cpunisher/pedo/filter/FilterGZip.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cpunisher/pedo/util/GZipResponseWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cpunisher/pedo/util/gzip/GZipResponseWrapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/cpunisher/pedo/util/GZipServletOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cpunisher/pedo/util/gzip/GZipServletOutputStream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/callback.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/callback.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/donate.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/donate.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/tableData.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/rankDataAll.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/rank.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/rank.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +27,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -58,20 +54,24 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="D:/cmder/vendor/git-for-windows/bin/git.exe" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\pedometer\web\WEB-INF\lib" />
-      <recent name="D:\IdeaProjects\pedometer\web" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\pedometer\web\WEB-INF\lib" />
+      <recent name="D:\IdeaProjects\pedometer\web\res" />
       <recent name="D:\IdeaProjects\pedometer\resources" />
       <recent name="D:\IdeaProjects\pedometer\web" />
       <recent name="D:\IdeaProjects\pedometer\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\pedometer\web\WEB-INF\lib" />
+      <recent name="D:\IdeaProjects\pedometer\web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -190,7 +190,7 @@
       <updated>1569585716579</updated>
       <workItem from="1569585718762" duration="9431000" />
       <workItem from="1569631318415" duration="5904000" />
-      <workItem from="1569637933625" duration="5047000" />
+      <workItem from="1569637933625" duration="18058000" />
     </task>
     <servers />
   </component>

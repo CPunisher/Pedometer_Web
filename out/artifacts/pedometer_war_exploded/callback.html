@@ -6,6 +6,7 @@
     <title>反馈</title>
     <link type="text/css" rel="stylesheet" href="css/navigation.css">
     <link type="text/css" rel="stylesheet" href="css/callback.css">
+    <script src="js/callback.js"></script>
 </head>
 <body>
     <nav class="navigation">
@@ -20,16 +21,17 @@
 
     <article class="main_center">
         <p>&nbsp;</p>
-        <form id="callback_form" method="post">
+        <form id="callback_form">
             <fieldset id="callback_fields">
                 <legend>发送反馈</legend>
-                <p>反馈将以邮件的方式发送到作者邮箱</p>
-                <p>请不要发送无意义的垃圾邮件</p>
+                <p>反馈将以非即时通讯方式直接发送给作者</p>
+                <p>作者将以邮件形式回复(如果看到了)</p>
+                <p>请不要发送无意义的反馈</p>
                 <p>您的任何信息都不会被公开</p>
 
                 <p>
-                    <label for="context" class="form_label">反馈内容:</label>
-                    <textarea id="context" name="context" cols="110" rows="5" style="padding: 5px" required></textarea>
+                    <label for="content" class="form_label">反馈内容:</label>
+                    <textarea id="content" name="content" cols="110" rows="5" style="padding: 5px" required></textarea>
                 </p>
 
                 <p>
@@ -48,5 +50,8 @@
             </fieldset>
         </form>
     </article>
+    <script>
+        document.getElementById("callback_submit").addEventListener("click", send);
+    </script>
 </body>
 </html>

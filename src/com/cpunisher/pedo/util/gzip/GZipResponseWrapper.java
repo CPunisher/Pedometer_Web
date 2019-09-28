@@ -1,4 +1,4 @@
-package com.cpunisher.pedo.util;
+package com.cpunisher.pedo.util.gzip;
 
 import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletResponse;

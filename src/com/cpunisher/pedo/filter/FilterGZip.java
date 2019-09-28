@@ -1,7 +1,7 @@
 package com.cpunisher.pedo.filter;
 
 
-import com.cpunisher.pedo.util.GZipResponseWrapper;
+import com.cpunisher.pedo.util.gzip.GZipResponseWrapper;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebFilter;
