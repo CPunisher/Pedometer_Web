@@ -6,72 +6,94 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60f5ed2c-4a83-4a8a-a6d1-de96b2c20afd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/pedometer_war_exploded/callback.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/pedometer_war_exploded/callback.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/pedometer_war_exploded/donate.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/pedometer_war_exploded/donate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/pedometer_war_exploded/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/pedometer_war_exploded/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cpunisher/pedo/filter/FilterGZip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cpunisher/pedo/filter/FilterGZip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cpunisher/pedo/util/GZipResponseWrapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cpunisher/pedo/util/gzip/GZipResponseWrapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/cpunisher/pedo/util/GZipServletOutputStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/cpunisher/pedo/util/gzip/GZipServletOutputStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/callback.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/callback.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/donate.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/donate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="2c554afc-96d7-4498-8d31-17b18b977775" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="pedometer@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="pedometer@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="pedometer@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="pedometer: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="JavaScript File" />
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
-  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
+    <option name="FILTER_INFO" value="false" />
+    <option name="FILTER_DEBUG" value="false" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="ProjectId" id="1RQ3uemHIC0I2htjoAPFW6MDv6p" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.6.1\repository" />
+        <option name="mavenHome" value="D:/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
+  <component name="ProjectId" id="1Rcy2vOODIgCIwYwDXpxRvdgmMD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/cmder/vendor/git-for-windows/bin/git.exe" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/cpunisher/pedo/util" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\pedometer\web\WEB-INF\lib" />
-      <recent name="D:\IdeaProjects\pedometer\web\res" />
-      <recent name="D:\IdeaProjects\pedometer\resources" />
-      <recent name="D:\IdeaProjects\pedometer\web" />
-      <recent name="D:\IdeaProjects\pedometer\src" />
+      <recent name="D:\IdeaProjects\pedometer\src\main\webapp\WEB-INF" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.cpunisher.bean" />
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\pedometer\web\WEB-INF\lib" />
-      <recent name="D:\IdeaProjects\pedometer\web" />
+      <recent name="D:\IdeaProjects\pedometer\src\main\java\com\cpunisher\pedo\util" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -86,7 +108,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.24">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9">
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cpunisher.pedo.Test" />
       <module name="pedometer" />
@@ -100,8 +122,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat 9.0.24" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.24" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER" value="false" />
+    <configuration name="Tomcat 9" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.24" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=utf-8" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="pedometer:war exploded">
           <settings>
@@ -110,7 +133,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Tomcat_9_0_24_pedometer" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_pedometer" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -118,7 +141,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="14817" />
+        <option name="DEBUG_PORT" value="2089" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -172,42 +195,50 @@
         </option>
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Tomcat Server.Tomcat 9" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@a48a4762" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="60f5ed2c-4a83-4a8a-a6d1-de96b2c20afd" name="Default Changelist" comment="" />
-      <created>1569585716579</created>
+      <changelist id="2c554afc-96d7-4498-8d31-17b18b977775" name="Default Changelist" comment="" />
+      <created>1569980474629</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1569585716579</updated>
-      <workItem from="1569585718762" duration="9431000" />
-      <workItem from="1569631318415" duration="5904000" />
-      <workItem from="1569637933625" duration="18058000" />
+      <updated>1569980474629</updated>
+      <workItem from="1569980476463" duration="7617000" />
+      <workItem from="1570004959035" duration="7985000" />
+      <workItem from="1570069109189" duration="2714000" />
+      <workItem from="1570099324161" duration="11780000" />
+      <workItem from="1570149948399" duration="19284000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
