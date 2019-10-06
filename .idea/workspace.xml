@@ -7,33 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c554afc-96d7-4498-8d31-17b18b977775" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cpunisher/pedo/servlet/ServletCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cpunisher/pedo/servlet/ServletCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cpunisher/pedo/servlet/ServletGetSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cpunisher/pedo/servlet/ServletGetSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mail.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mail.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/callback.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/callback.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/callback.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/callback.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/donate.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/donate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/navigation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/rank.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/rank.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/donate.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/donate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/rank.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/rank.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pedometer/callback.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pedometer/callback.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pedometer/css/callback.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/pedometer/css/callback.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pedometer/css/donate.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/pedometer/css/donate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pedometer/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/pedometer/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pedometer/css/navigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/pedometer/css/navigation.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pedometer/css/rank.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/pedometer/css/rank.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pedometer/donate.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pedometer/donate.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pedometer/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pedometer/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pedometer/rank.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pedometer/rank.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/pedometer/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/pedometer/register.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,15 +100,16 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IdeaProjects\pedometer\src\main\resources" />
+      <recent name="D:\IdeaProjects\pedometer\src\main\webapp\WEB-INF" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.cpunisher.bean" />
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\IdeaProjects\pedometer\src\main\java\com\cpunisher\pedo\util" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\IdeaProjects\pedometer\src\main\webapp\WEB-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -277,7 +254,7 @@
       <workItem from="1570235676206" duration="2180000" />
       <workItem from="1570254050292" duration="6017000" />
       <workItem from="1570325378072" duration="86000" />
-      <workItem from="1570326217968" duration="3292000" />
+      <workItem from="1570326217968" duration="3707000" />
     </task>
     <servers />
   </component>

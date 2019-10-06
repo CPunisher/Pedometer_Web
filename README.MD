@@ -3,6 +3,7 @@
 - 也提供了一个排行榜系统以便对比你和他人的步数 
 
 ## 如何使用  
+- 修改resources中的app jdbc mail配置文件
 - 用浏览器输入部署项目的url 
 - 点击"登记"选项卡然后扫码上传你今天的微信步数 
 - 最后点击"排行榜"选项卡来查看排名情况 
@@ -18,6 +19,7 @@
 - It also provides a rank function so you can see the daily rank, weekly rank and monthly rank to compare you steps to others. 
 
 ## How to use 
+- Change the app jdbc mail properties in resource dictionary.
 - Use your browser to visit the url where the project is placing. 
 - Click the "upload" and scan the QR Code to upload your today's data. 
 - Finally check the "rank" to see your rank. 
