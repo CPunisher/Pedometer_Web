@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="CPunisher">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <title>微信计步</title>
     <link type="text/css" rel="stylesheet" href="css/navigation.css">
     <link type="text/css" rel="stylesheet" href="css/index.css">
@@ -10,32 +12,31 @@
     <script src="js/utils.js"></script>
 </head>
 <body>
-    <nav class="navigation">
-        <ul class="main_bar">
-            <li><a href="index.html">主页</a></li>
-            <li><a href="rank.html">排行榜</a></li>
-            <li><a href="register.html">登记</a></li>
-            <li><a href="callback.html">反馈</a></li>
-            <li><a href="donate.html">捐助</a></li>
-        </ul>
-    </nav>
+<nav class="navigation">
+    <ul class="main_bar">
+        <li><a href="index.html">主页</a></li>
+        <li><a href="rank.html">排行榜</a></li>
+        <li><a href="register.html">登记</a></li>
+        <li><a href="callback.html">反馈</a></li>
+        <li><a href="donate.html">捐助</a></li>
+    </ul>
+</nav>
 
-    <article>
-        <div id="index_left">
-            <p>&nbsp;</p>
-            <p style="font-size: 35px; color: deepskyblue;font-weight: bold" >微信计步</p>
-            <p>可以在上方导航栏找到你想要的功能</p>
-            <p><strong>主页</strong>就是这个页面</p>
-            <p><strong>排行榜</strong>可以查看日榜 周榜 月榜</p>
-            <p><strong>登记</strong>通过扫描二维码上传今天的步数</p>
-            <p>每天以最后上传的步数为准</p>
-            <p>页面功能有什么bug可以反馈</p>
-        </div>
-
-        <div id="index_right">
-            <aside id="aside_rank">
-                <p>微信步数日榜前五</p>
-                <div id="daily_rank">
+<div class="div_1">
+    <table class="main_table">
+        <tr>
+            <td class="col_1">
+                <p style="font-size: 35px; color: deepskyblue;font-weight: bold">微信计步</p>
+                <p>可以在上方导航栏找到你想要的功能</p>
+                <p><strong>主页</strong>就是这个页面</p>
+                <p><strong>排行榜</strong>可以查看日榜 周榜 月榜</p>
+                <p><strong>登记</strong>通过扫描二维码上传今天的步数</p>
+                <p>每天以最后上传的步数为准</p>
+                <p>页面功能有什么bug可以反馈</p>
+            </td>
+            <td class="col_2">
+                <div id="aside_rank">
+                    <p>微信步数日榜前五</p>
                     <table name="table_daily_data" id="table_daily_data">
                         <tr>
                             <th>学号</th>
@@ -45,15 +46,16 @@
                         </tr>
                     </table>
                 </div>
-            </aside>
-            <aside>
-                <p style="font-weight: bold">扫一扫关注微信</p>
-                <img src="res/QRCode.png" width="64" height="64" id="qr_code"/>
-            </aside>
-        </div>
-    </article>
-    <script>
-        getData();
-    </script>
+                <div>
+                    <p style="font-weight: bold">扫一扫关注微信</p>
+                    <img src="res/QRCode.png" width="64" height="64" id="qr_code"/>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+<script>
+    getData();
+</script>
 </body>
 </html>

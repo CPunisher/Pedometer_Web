@@ -1,12 +1,14 @@
 .main_center {
     text-align: center;
+    clear: both;
 }
 
 #callback_form {
     width: 65%;
     text-align: left;
-    display: inline-block;
     font-weight: bold;
+    display: table;
+    margin: 0 auto;
 }
 
 #callback_fields {

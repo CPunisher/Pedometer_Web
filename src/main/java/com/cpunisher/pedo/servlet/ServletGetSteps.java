@@ -24,12 +24,13 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.Properties;
 
 @WebServlet(name = "servletGetSteps", urlPatterns = "/getSteps.do", loadOnStartup = 1)
 public class ServletGetSteps extends HttpServlet {
 
-    private static final String APP_ID = "wxe69f108c67362339";
-    private static final String APP_SECRET = "fa6411009077d1d28f35a0d7a7f20f40";
+    private static String APP_ID;
+    private static String APP_SECRET;
 
     private static Logger logger = LogManager.getLogger(ServletGetSteps.class);
 
@@ -40,6 +41,14 @@ public class ServletGetSteps extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        if (APP_ID == null || APP_SECRET == null) {
+            Properties properties = new Properties();
+
+            properties.load(ServletGetSteps.class.getClassLoader().getResourceAsStream("app.properties"));
+            APP_ID = properties.getProperty("app.id");
+            APP_SECRET = properties.getProperty("app.secret");
+        }
+
         resp.setContentType("text/html;charset=utf-8");
         resp.setCharacterEncoding("utf-8");
         PrintWriter writer = resp.getWriter();
@@ -71,7 +80,7 @@ public class ServletGetSteps extends HttpServlet {
         ResultGetSteps resultGetSteps = new ResultGetSteps();
         int start = stuInfo.indexOf(':');
         int end = stuInfo.indexOf(',');
-        if(start != -1 && end != -1) {
+        if (start != -1 && end != -1) {
             resultGetSteps.setName(stuInfo.substring(start + 1, end));
         } else {
             resultGetSteps.setName("error");

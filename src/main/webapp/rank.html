@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="CPunisher">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
     <title>排行榜</title>
     <link type="text/css" rel="stylesheet" href="css/navigation.css">
     <link type="text/css" rel="stylesheet" href="css/rank.css">
@@ -20,42 +22,55 @@
     </ul>
 </nav>
 
-<article>
-    <br>
-    <div class="col">
-        <table class="table_data" id="table_daily_data" cellspacing="15">
-            <caption>日榜</caption>
-            <tr>
-                <th class="sort" name="sort_num">学号</th>
-                <th>姓名</th>
-                <th class="sort" name="sort_steps">步数</th>
-                <th>折合路程(m)</th>
-            </tr>
-        </table>
-    </div>
-    <div class="col">
-        <table class="table_data" id="table_weekly_data" cellspacing="15">
-            <caption>7日榜</caption>
-            <tr>
-                <th class="sort" name="sort_num">学号</th>
-                <th>姓名</th>
-                <th class="sort" name="sort_steps">步数</th>
-                <th>折合路程(m)</th>
-            </tr>
-        </table>
-    </div>
-    <div class="col">
-        <table class="table_data" id="table_monthly_data" cellspacing="15">
-            <caption>月榜</caption>
-            <tr>
-                <th class="sort" name="sort_num">学号</th>
-                <th>姓名</th>
-                <th class="sort" name="sort_steps">步数</th>
-                <th>折合路程(m)</th>
-            </tr>
-        </table>
-    </div>
-</article>
+<div class="div_1">
+    <table class="table_data" id="table_daily_data" cellspacing="15">
+        <caption>日榜</caption>
+        <tr>
+            <th class="sort" name="sort_num">学号</th>
+            <th>姓名</th>
+            <th class="sort" name="sort_steps">步数</th>
+            <th>折合路程(m)</th>
+        </tr>
+        <tr>
+            <td>19373563</td>
+            <td>测试人员</td>
+            <td>25000</td>
+            <td>1500</td>
+        </tr>
+    </table>
+
+    <table class="table_data" id="table_weekly_data" cellspacing="15">
+        <caption>7日榜</caption>
+        <tr>
+            <th class="sort" name="sort_num">学号</th>
+            <th>姓名</th>
+            <th class="sort" name="sort_steps">步数</th>
+            <th>折合路程(m)</th>
+        </tr>
+        <tr>
+            <td>19373563</td>
+            <td>测试人员</td>
+            <td>25000</td>
+            <td>1500</td>
+        </tr>
+    </table>
+
+    <table class="table_data" id="table_monthly_data" cellspacing="15">
+        <caption>月榜</caption>
+        <tr>
+            <th class="sort" name="sort_num">学号</th>
+            <th>姓名</th>
+            <th class="sort" name="sort_steps">步数</th>
+            <th>折合路程(m)</th>
+        </tr>
+        <tr>
+            <td>19373563</td>
+            <td>测试人员</td>
+            <td>25000</td>
+            <td>1500</td>
+        </tr>
+    </table>
+</div>
 
 <script>
     getData();
@@ -74,7 +89,7 @@
 
         // 第一行是th
         for (var i = 0; i < trs.length - 1; i++) {
-            var tds = trs[i+1].getElementsByTagName("td");
+            var tds = trs[i + 1].getElementsByTagName("td");
             if (tds) {
                 tableData[i] = {};
                 tableData[i].stuNum = tds[0].innerHTML;
@@ -95,8 +110,8 @@
             return order * result;
         });
 
-        for (var i = 0; i < trs.length-1; i++) {
-            var tds = trs[i+1].getElementsByTagName("td");
+        for (var i = 0; i < trs.length - 1; i++) {
+            var tds = trs[i + 1].getElementsByTagName("td");
             if (tableData[i]) {
                 tds[0].innerHTML = tableData[i].stuNum;
                 tds[1].innerHTML = tableData[i].name;
